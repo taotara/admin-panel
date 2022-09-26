@@ -15,7 +15,7 @@ function Single() {
             <h1 className="slTitle">Information</h1>
             <div className="editButton">Edit</div>
             <div className="item">
-              <img src="https://images.pexels.com/photos/13636706/pexels-photo-13636706.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" className="itemImg" />
+              <img src="https://images.pexels.com/photos/13623557/pexels-photo-13623557.jpeg?cs=srgb&dl=pexels-regina-trissteria-13623557.jpg&fm=jpg" alt="" className="itemImg" />
               <div className="details">
                 <h1 className="itemTitle">Jane Doe</h1>
                 <div className="detailitem">
