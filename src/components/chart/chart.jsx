@@ -1,6 +1,6 @@
 import React from 'react'
 import "./chart.css"
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis,  CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
 
@@ -13,10 +13,10 @@ const data = [
   { name: "June", Total: 1700 },
 ];
 
-function chart({aspect}) {
+function chart({aspect, title}) {
   return (
     <div className='chart'>
-        <div className="title">Last 6 Months (Revenue)</div>
+        <div className="title">{title}</div>
         <ResponsiveContainer width="100%" aspect = {aspect}>
         <AreaChart width={730} height={250} data={data}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>

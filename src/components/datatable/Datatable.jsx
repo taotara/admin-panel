@@ -1,6 +1,6 @@
 import React from 'react'
 import './datatable.css'
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import { userColumns, userRows } from '../../databasesource';
 
 const Datatable = () => {

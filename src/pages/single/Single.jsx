@@ -3,6 +3,7 @@ import './single.css'
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Chart from '../../components/chart/chart';
+import List from '../../components/table/Table';
 
 function Single() {
   return (
@@ -15,7 +16,7 @@ function Single() {
             <h1 className="slTitle">Information</h1>
             <div className="editButton">Edit</div>
             <div className="item">
-              <img src="https://images.pexels.com/photos/13623557/pexels-photo-13623557.jpeg?cs=srgb&dl=pexels-regina-trissteria-13623557.jpg&fm=jpg" alt="" className="itemImg" />
+              <img src="https://images.pexels.com/photos/13623557/pexels-photo-13623557.jpeg?cs=srgb&dl=pexels-regina-trissteria-13623557.jpg&fm=jpg " alt="" className="itemImg" />
               <div className="details">
                 <h1 className="itemTitle">Jane Doe</h1>
                 <div className="detailitem">
@@ -38,10 +39,13 @@ function Single() {
             </div>
           </div>
           <div className="right">
-            <Chart aspect={3/1} />
+            <Chart aspect={3/1} title="User Spending (Last 6 Months)" />
           </div>
         </div>
-        <div className="buttom"></div>
+        <div className="buttom">
+          <h1 className="slTitle">Last Transactions</h1>
+          <List />
+        </div>
       </div>
     </div>
   )
